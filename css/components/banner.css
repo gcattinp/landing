@@ -1,0 +1,42 @@
+p {
+  margin: 0;
+}
+
+h3 {
+  padding-left: 20px;
+}
+.banner {
+  width: 600px;
+  height: 200px;
+  border-left: solid black;
+  border-right: solid black;
+  border-bottom: solid black;
+  background-color: rgba(192, 211, 111, 0.2);
+}
+
+.header {
+  background-color: lightgrey;
+  height: 25px;
+  border-bottom: solid black;
+  border-top: solid black;
+}
+
+#box{
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.user-info img {
+  width: 110px;
+  height: 120px;
+}
