@@ -1,0 +1,69 @@
+.banner-jpegs {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  border-left: solid black;
+  border-right: solid black;
+  border-bottom: solid black;
+  background-color: white;
+  top: 150px;
+  left: 250px;
+  padding-bottom: 10px;
+}
+
+.header-jpegs {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: lightgrey;
+  height: 25px;
+  border-bottom: solid black;
+  border-top: solid black;
+  padding-right: 10px;
+  position: relative;
+  z-index: 10;
+}
+
+.jpegs {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 25px);
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.jpeg {
+  position: absolute;
+  width: 77px;
+  height: 100px;
+  text-align: center;
+}
+
+#remilia-folder {
+  top: 10%; /* Adjusted positioning */
+  left: 5%;
+}
+
+#bera-folder {
+  top: 10%; /* Adjusted positioning */
+  left: 35%;
+}
+
+#shiro {
+  top: 10%; /* Adjusted positioning */
+  left: 65%;
+}
+
+#radcattin {
+  top: 60%; /* Remains unchanged */
+  left: 5%;
+}
+
+#anata {
+  top: 60%; /* Remains unchanged */
+  left: 35%;
+}
+
+#remilia-folder img, #bera-folder img, #radcattin img, #anata img, #shiro img{
+  width: 77px;
+}

@@ -1,0 +1,59 @@
+.banner-pop {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  border-left: solid black;
+  border-right: solid black;
+  border-bottom: solid black;
+  background-color: white;
+  top: 150px;
+  left: 250px;
+}
+
+.header-pop {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: lightgrey;
+  height: 25px;
+  border-bottom: solid black;
+  border-top: solid black;
+  padding-right: 10px;
+}
+
+#project-kali, #project-wrappr, #project-nani {
+  position: absolute;
+}
+#kali, #wrappr, #nani {
+  width: 77px;
+  border: 2px solid black;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  padding: 20px;  /* Add some padding so the items aren't right against the edges */
+}
+
+.project {
+  display: flex;
+  flex-direction: column; /* To ensure the image and text are vertically aligned */
+  align-items: center;
+}
+
+#project-kali {
+  top: 15%;
+  left: 20%;
+}
+
+#project-wrappr {
+  top: 15%;
+  left: 60%;
+}
+
+#project-nani {
+  top: 60%;
+  left: 20%;  
+}
