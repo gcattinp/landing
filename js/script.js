@@ -1,6 +1,7 @@
 window.onload = function() {
   const banner = document.querySelector('.banner');
   const header = document.querySelector('.header');
+  const closeButton = document.querySelector('#closeBtn')
 
   let mouseDown = false;
   let startX, startY, initialLeft, initialTop;
@@ -25,4 +26,8 @@ window.onload = function() {
     mouseDown = false;
     window.removeEventListener('mousemove', calculatePosition);
   });
+
+  closeButton.addEventListener('click', () => {
+    document.querySelector(".container").style.display = "none";
+  })
 };
