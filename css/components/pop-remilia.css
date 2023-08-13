@@ -1,0 +1,46 @@
+.banner-nfts {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  border-left: solid black;
+  border-right: solid black;
+  border-bottom: solid black;
+  background-color: white;
+  top: 170px;
+  left: 270px;
+  padding-bottom: 10px;
+}
+
+.header-nfts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: lightgrey;
+  height: 25px;
+  border-bottom: solid black;
+  border-top: solid black;
+  padding-right: 10px;
+  position: relative;
+  z-index: 10;
+}
+
+.nfts {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 25px);
+  padding: 20px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.nft {
+  width: calc(100% - 20px); /* -20px to account for potential padding or margins */
+  text-align: center;
+}
+
+.nft img {
+  max-width: 100%;
+  height: auto;
+}

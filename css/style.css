@@ -8,6 +8,7 @@
 @import url("components/folder.css");
 @import url("components/popup.css");
 @import url("components/pop-jpegs.css");
+@import url("components/pop-remilia.css");
 
 /* Utilities */
 body {
@@ -37,6 +38,9 @@ a {
   z-index: 10;
 }
 
+.banner-nfts {
+  z-index: 30;
+}
 .banner-pop, .banner-jpegs {
   z-index: 20;
 }

@@ -67,3 +67,7 @@
 #remilia-folder img, #bera-folder img, #radcattin img, #anata img, #shiro img{
   width: 77px;
 }
+
+#remilia-folder, #bera-folder {
+  cursor: pointer;
+}
